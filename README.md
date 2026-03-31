@@ -1,16 +1,30 @@
-# React + Vite
+# PVHub - Học Trực Tuyến Mọi Nơi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Mô tả ngắn
+PVHub là trang web học trực tuyến tập trung vào trang chủ theo phong cách Azota/Udemy. Giao diện sử dụng tông màu trắng - xanh theo logo và bố cục đơn giản, dễ đọc.
 
-Currently, two official plugins are available:
+## Mục tiêu bài tập
+- Tạo giao diện trang chủ từ HTML/CSS trong React.
+- Thực hành bố cục, typography, và responsive layout.
+- Bổ sung các thành phần cơ bản của một nền tảng học tập.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tính năng chính
+- Navbar căn giữa, highlight theo section khi scroll/nhấp vào.
+- Nút chuyển theme sáng/tối (light/dark).
+- Các section chính: Hero, Danh mục, Khóa học, Thống kê, Đánh giá, CTA, Footer.
+- Ảnh minh họa local trong public/images và logo trong public/image.png.
+- Tiêu đề trang: "PVHub - Học Trực Tuyến Mọi Nơi".
 
-## React Compiler
+## Công nghệ
+- React 19 + Vite
+- CSS thủ công
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Hướng dẫn chạy
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tài nguyên
+- Ảnh minh họa: public/images (download từ Unsplash, đã lưu local).
+- Logo: public/image.png
